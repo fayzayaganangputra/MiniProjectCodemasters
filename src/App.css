@@ -1,0 +1,6 @@
+@import url(https://fonts.bunny.net/css?family=abhaya-libre:400,500,600,700,800|acme:400|advent-pro:200,300,400,500,700,800|poppins:100,200,300,400,500,600,700,800,900);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
