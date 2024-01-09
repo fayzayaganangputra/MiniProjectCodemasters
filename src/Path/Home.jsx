@@ -1,5 +1,5 @@
 
-import './App.css'
+import '../App.css'
 import Hero from '../components/Hero'
 import Kolbook from '../components/Kolbook'
 import Rowbook from '../components/Rowbook'

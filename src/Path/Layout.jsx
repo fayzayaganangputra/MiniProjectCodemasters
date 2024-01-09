@@ -1,10 +1,10 @@
 
-import "./App.css";
-import Navbar from "../Navbar"
-import Cta from "../Cta";
-import Footer from "../footer";
+import "../App.css";
+import Navbar from "../components/Navbar"
+import Cta from "../components/Cta";
+import Footer from "../components/footer";
 import { Outlet } from "react-router-dom";
-import FooterBawah from "../FooterBawah";
+import FooterBawah from "../components/FooterBawah";
 
 function Layout() {
 

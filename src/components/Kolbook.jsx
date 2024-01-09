@@ -47,8 +47,11 @@ const Kolbook = () => {
                 <div className="font-poppins">
                   {BookList[index1]["author"]["name"]}
                 </div>
-                <div className="py-3">
-                  <Rating value={BookList[index1]["rating"]} />
+                <div className="py-3 flex flex-row font-poppins font-medium text-xl">
+                  {Math.round(BookList[index1]["rating"])}
+                  <span className="ml-2">
+                    <Rating value={BookList[index1]["rating"]} />
+                  </span>
                 </div>
                 <div className="line-clamp-2">
                   {BookList[index1]["synopsis"]}
@@ -76,8 +79,11 @@ const Kolbook = () => {
                   {BookList[index2]["title"]}
                 </div>
                 <div>{BookList[index2]["author"]["name"]}</div>
-                <div className="py-3">
-                  <Rating value={BookList[index2]["rating"]} />
+                <div className="py-3 flex flex-row font-poppins font-medium text-xl">
+                  {Math.round(BookList[index2]["rating"])}
+                  <span className="ml-2">
+                    <Rating value={BookList[index2]["rating"]} />
+                  </span>
                 </div>
                 <div className="line-clamp-2">
                   {BookList[index2]["synopsis"]}
@@ -106,8 +112,11 @@ const Kolbook = () => {
                   {BookList[index3]["title"]}
                 </div>
                 <div>{BookList[index3]["author"]["name"]}</div>
-                <div className="py-3">
-                  <Rating value={BookList[index3]["rating"]} />
+                <div className="py-3 flex flex-row font-poppins font-medium text-xl">
+                  {Math.round(BookList[index3]["rating"])}
+                  <span className="ml-2">
+                    <Rating value={BookList[index3]["rating"]} />
+                  </span>
                 </div>
                 <div className="line-clamp-2">
                   {BookList[index3]["synopsis"]}
@@ -136,8 +145,11 @@ const Kolbook = () => {
                   {BookList[index4]["title"]}
                 </div>
                 <div>{BookList[index4]["author"]["name"]}</div>
-                <div className="py-3">
-                  <Rating value={BookList[index4]["rating"]} />
+                <div className="py-3 flex flex-row font-poppins font-medium text-xl">
+                  {Math.round(BookList[index4]["rating"])}
+                  <span className="ml-2">
+                    <Rating value={BookList[index4]["rating"]} />
+                  </span>
                 </div>
                 <div className="line-clamp-2">
                   {BookList[index4]["synopsis"]}
