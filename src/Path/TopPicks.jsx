@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Picks from "./Picks";
-import Rowbook from "./Rowbook";
+import Picks from "../components/Picks";
+import Rowbook from "../components/Rowbook";
 
 function TopPicks() {
   const [count, setCount] = useState(0);

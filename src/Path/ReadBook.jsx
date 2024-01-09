@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Read from "./Read";
+import Read from "../components/Read";
 
 function ReadBook() {
     

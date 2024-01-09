@@ -1,9 +1,9 @@
 
 import './App.css'
-import Hero from './Hero'
-import Kolbook from './Kolbook'
-import Rowbook from './Rowbook'
-import Read from './Read'
+import Hero from '../components/Hero'
+import Kolbook from '../components/Kolbook'
+import Rowbook from '../components/Rowbook'
+import Read from '../components/Read'
 
 
 function Home() {

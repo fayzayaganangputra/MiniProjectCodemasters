@@ -1,7 +1,7 @@
 
-import Ourlatest from "./Ourlatest";
-import Rowbook from "./Rowbook";
-import Picks from "./Picks";
+import Ourlatest from "../components/Ourlatest";
+import Rowbook from "../components/Rowbook";
+import Picks from "../components/Picks";
 
 
 function Latest() {

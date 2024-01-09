@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./Home";
-import Latest from "./Latest";
-import TopPicks from "./TopPicks";
-import Layout from "./Layout";
-import ReadBook from "./ReadBook";
+import Home from "./Path/Home";
+import Latest from "./Path/Latest";
+import TopPicks from "./Path/TopPicks";
+import Layout from "./Path/Layout";
+import ReadBook from "./Path/ReadBook";
 
 
 const router = createBrowserRouter([
