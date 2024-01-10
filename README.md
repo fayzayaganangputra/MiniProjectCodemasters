@@ -21,6 +21,7 @@ Bokoe App
 - **Path**: Direktori untuk berkas yang membuat tampilan setiap halaman:
   - **Layout.jsx**: Tampilan halaman utama saat aplikasi dijalankan.
   - **Home.jsx**: Tampilan pada halaman All (mirip halaman utama).
+
   - **Latest.jsx**: Tampilan halaman Latest.
   - **TopPicks.jsx**: Tampilan pada halaman Top Picks.
   - **ReadBook**: Tampilan halaman Detail Buku, diakses ketika tombol read book diklik.
@@ -32,4 +33,6 @@ Bokoe App
 
 - Fungsionalitas Search belum sepenuhnya tersedia.
 - Masalah error 404 terkadang muncul saat perpindahan halaman. Refresh halaman dapat memperbaikinya, meskipun aplikasi sebenarnya tidak mengalami error, hanya butuh sedikit waktu untuk mengambil data.
+
+**Jalankan Aplikasi dengan cara masuk ke /d/codemasters/Bookoe/project-bokoe lalu npm run dev untuk menjalankannya**
 
